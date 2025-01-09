@@ -46,7 +46,7 @@ function Login() {
         }
     })
     return <>
-        <section className='w-1/3 mx-auto p-3 shadow-lg mt-5 bg-slate-50'>
+        <section className='w-1/3 mx-auto p-3 shadow-lg mt-40 bg-slate-50'>
             <h2 className="text-3xl font-semibold text-center mb-5">Login Now</h2>
             <form onSubmit={formik.handleSubmit} className='space-y-3'>
                 {err && <p className="text-sm text-red-600 text-center">{err}</p>}
