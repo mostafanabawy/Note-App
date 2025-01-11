@@ -40,7 +40,7 @@ function Home() {
         <section>
             <Sidebar />
             <div className="min-h-screen flex mt-24 items-start justify-end me-5">
-                <div className="grow ps-72 mt-20 grid grid-cols-1 md:grid-cols-2 l:grid-cols-4 xl:ps-80">
+                <div className="grow ps-72 mt-20 grid grid-cols-1 md:grid-cols-m2 lg:grid-cols-4 xl:ps-80">
                     {notes && notes.map(note => (
                         <div key={note._id} className="px-4  py-3 border-b-2 shadow-md m-2 bg-white">
                             <h2 className="text-3xl font-semibold w-full">{note.title}</h2>
